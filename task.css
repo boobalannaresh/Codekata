@@ -1,0 +1,20 @@
+.child{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+
+}
+body{
+    display:flex;
+    gap: 20px;
+}
+
+div:visited {
+    color:black
+}
+div:hover{
+color: blue;
+background-color: rgb(85, 190, 228);
+}
+
+

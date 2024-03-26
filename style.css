@@ -1,0 +1,131 @@
+.newspaperCompanyName{
+    margin-top: -0px;
+    display:flex;
+    justify-content: space-between;
+    height: 130px;
+    
+}
+
+.newspaperName-container1{
+    margin-top: 0px;
+    display: flex;
+    width: 50%;
+    
+}
+
+.newspaperName-container2{
+    margin-top: 0px;
+    display: flex;
+    width: 50%;
+}
+
+.newspaperName-1{
+    
+    line-height: 15px;
+    width: 25%;
+    text-align: right;
+    font-size: 12px;
+   
+}
+
+.newspaperName-2{
+    width: 45%;
+    
+}
+
+.the{
+    margin-top: 0px;
+    font-size: 140px;
+}
+
+.newspaperName-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    font-size: 12px;
+}
+
+.newspaperName-4{
+    width: 75%;
+}
+.newspaperName-5{
+    width: 25%;
+    font-size: 10px;
+}
+
+.newspaperLogo{
+    width: 200px;
+
+}
+
+.since{
+    font-size: 9px;
+}
+.hindu{
+margin-top: 0px;
+    font-size: 140px;
+}
+
+.allPlace{
+margin-top: 0px;
+font-size: 10px;
+}
+
+.allplacelist{
+    display: flex;
+    list-style-type:none;
+    gap:5px;
+}
+
+.advertisment{
+    display: flex;
+    
+}
+
+.advertisment-1{
+    display: flex;
+    background-color: rgb(114, 6, 125);
+    width: 50%;
+}
+
+.ads1-section1{
+    display: flex;
+}
+
+.ads1-section1-1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.byjuslogo{
+    padding: 10px;
+    background-color: white;
+    width: 45px;
+    height: 40px;
+}
+
+.ads1-section1-2{
+    margin: 0px;
+ border-right: white 2px solid;
+ height: 20px;
+}
+
+.logoname{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.exam{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: peru;
+}
+
+.ias{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: brown;
+}

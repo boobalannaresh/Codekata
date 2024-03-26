@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Personal Webpage</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin: 10px;
+      cursor: pointer;
+      background-color: #FF69B4; /* default color */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box" onclick="changeColor(this)"></div>
+  <div class="box" onclick="changeColor(this)"></div>
+  <div class="box" onclick="changeColor(this)"></div>
+  <div class="box" onclick="changeColor(this)"></div>
+
+  <script>
+    let previousBox;
+
+function changeColor(element) {
+  if (previousBox) {
+    previousBox.style.backgroundColor = getDifferentColor(); /* change the previous color */
+  }
+  element.style.backgroundColor = 'pink'; /* change the present color */
+  previousBox = element;
+}
+
+function getDifferentColor() {
+  const colors = ['#FFC0CB', '#ADD8E6', '#98FB98', '#FFD700']; /* You can customize this array with different colors */
+  return colors[Math.floor(Math.random() * colors.length)];
+}
+  </script>
+
+</body>
+</html>
